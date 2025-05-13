@@ -4,22 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="bases de datos de ideas y el formulario de crear ideas hechos">
+      <change afterPath="$PROJECT_DIR$/lib/prisma.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/ideas/vote/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/ideas/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ideaForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ideasList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/dev.db" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/dev.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/dev.db-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/prisma/edge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/edge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/prisma/index-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/index-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/prisma/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/prisma/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/prisma/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/prisma/wasm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/wasm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;XinXZP&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/XinXZP/kresco_aplic_web.git&quot;,
+    &quot;accountId&quot;: &quot;041739e0-b6be-444d-8790-1965ea8f7ad6&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/@prisma/client/index.d.ts" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2wric7Ou5ICUI7VjULxtMD40rFh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,18 +75,38 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.routes.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/name1/Documents/KrescoAplicWeb/kresco_aplic_web",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\name1\\Documents\\KrescoAplicWeb\\kresco_aplic_web\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\name1\Documents\KrescoAplicWeb\kresco_aplic_web\src\components" />
+      <recent name="C:\Users\name1\Documents\KrescoAplicWeb\kresco_aplic_web\src\app\api\ideas\new" />
+      <recent name="C:\Users\name1\Documents\KrescoAplicWeb\kresco_aplic_web\src\app\ideas" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="route.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/app/api/ideas/new/route.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/src/app/api/ideas/new">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.route.ts" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,10 +123,38 @@
       <option name="presentableId" value="Default" />
       <updated>1746806172797</updated>
       <workItem from="1746806174208" duration="1497000" />
+      <workItem from="1746808099634" duration="955000" />
+      <workItem from="1746890817448" duration="8682000" />
+      <workItem from="1746979704473" duration="6313000" />
+      <workItem from="1747082286550" duration="7694000" />
+      <workItem from="1747099838407" duration="2100000" />
+      <workItem from="1747138274401" duration="6518000" />
     </task>
+    <task id="LOCAL-00001" summary="primer commit">
+      <option name="closed" value="true" />
+      <created>1746808445004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746808445004</updated>
+    </task>
+    <task id="LOCAL-00002" summary="primer commit">
+      <option name="closed" value="true" />
+      <created>1746808991842</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746808991842</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primer commit" />
+    <MESSAGE value="bases de datos de ideas y el formulario de crear ideas hechos" />
+    <option name="LAST_COMMIT_MESSAGE" value="bases de datos de ideas y el formulario de crear ideas hechos" />
   </component>
 </project>
