@@ -20,6 +20,7 @@ export default function NewIdeaPage() {
 
         if (res.ok) {
             router.push('/ideas');
+            router.refresh();
         }
     };
 

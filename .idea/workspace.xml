@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="bases de datos de ideas y el formulario de crear ideas hechos">
-      <change afterPath="$PROJECT_DIR$/lib/prisma.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/ideas/vote/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/ideas/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ideaForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ideasList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/IdeaListClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SortSelector.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prisma/dev.db" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/dev.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/dev.db-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/prisma/edge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/edge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/prisma/index-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/index-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/prisma/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/prisma/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/prisma/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/prisma/wasm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/prisma/wasm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ideas/new/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ideas/new/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ideas/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ideas/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +114,7 @@
       <workItem from="1746979704473" duration="6313000" />
       <workItem from="1747082286550" duration="7694000" />
       <workItem from="1747099838407" duration="2100000" />
-      <workItem from="1747138274401" duration="6518000" />
+      <workItem from="1747138274401" duration="11490000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <option name="closed" value="true" />
@@ -146,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746808991842</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bases de datos de ideas y el formulario de crear ideas hechos">
+      <option name="closed" value="true" />
+      <created>1747152379591</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747152379591</updated>
+    </task>
+    <task id="LOCAL-00004" summary="bases de datos de ideas y el formulario de crear ideas hechos">
+      <option name="closed" value="true" />
+      <created>1747168519433</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747168519433</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
