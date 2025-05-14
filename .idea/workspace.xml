@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="bases de datos de ideas y el formulario de crear ideas hechos">
-      <change afterPath="$PROJECT_DIR$/src/components/IdeaListClient.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SortSelector.tsx" afterDir="false" />
+    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="ordenar ideas hecho, falta mejorar la UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prisma/dev.db" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/dev.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ideas/new/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ideas/new/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ideas/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ideas/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IdeaListClient.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IdeaListClient.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ideasList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ideasList.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,23 +60,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.routes.ts.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/name1/Documents/KrescoAplicWeb/kresco_aplic_web",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\name1\\Documents\\KrescoAplicWeb\\kresco_aplic_web\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.routes.ts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/name1/Documents/KrescoAplicWeb/kresco_aplic_web&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\name1\\Documents\\KrescoAplicWeb\\kresco_aplic_web\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\name1\Documents\KrescoAplicWeb\kresco_aplic_web\src\components" />
@@ -114,7 +115,8 @@
       <workItem from="1746979704473" duration="6313000" />
       <workItem from="1747082286550" duration="7694000" />
       <workItem from="1747099838407" duration="2100000" />
-      <workItem from="1747138274401" duration="11490000" />
+      <workItem from="1747138274401" duration="11909000" />
+      <workItem from="1747254619242" duration="4925000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <option name="closed" value="true" />
@@ -148,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747168519433</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ordenar ideas hecho, falta mejorar la UI">
+      <option name="closed" value="true" />
+      <created>1747184984644</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747184984644</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +167,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer commit" />
     <MESSAGE value="bases de datos de ideas y el formulario de crear ideas hechos" />
-    <option name="LAST_COMMIT_MESSAGE" value="bases de datos de ideas y el formulario de crear ideas hechos" />
+    <MESSAGE value="ordenar ideas hecho, falta mejorar la UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="ordenar ideas hecho, falta mejorar la UI" />
   </component>
 </project>

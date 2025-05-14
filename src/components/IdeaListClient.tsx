@@ -1,8 +1,10 @@
 "use client";
 
-import Link from "next/link";
 import styles from "./ideasList.module.css";
 import { useRouter } from 'next/navigation';
+import { ThumbsUp } from "lucide-react";
+import { motion } from "framer-motion";
+import {useState} from "react";
 
 type Idea = {
     id: number;
@@ -14,6 +16,8 @@ type Idea = {
 
 export default function IdeaListClient({ ideas }: { ideas: Idea[] }) {
     const router = useRouter();
+    const [animateId, setAnimateId] = useState<number | null>(null);
+
     async function handleVote(ideaId: number) {
         try {
             const response = await fetch('/api/ideas/vote', {
@@ -26,7 +30,12 @@ export default function IdeaListClient({ ideas }: { ideas: Idea[] }) {
 
             if (!response.ok) throw new Error('Error al votar');
             else {
-                router.push('/ideas');
+                setAnimateId(ideaId);
+
+                setTimeout(() => {
+                    setAnimateId(null);
+                }, 500);
+                router.refresh();
             }
         } catch (error) {
             console.error("Error:", error);
@@ -46,12 +55,15 @@ export default function IdeaListClient({ ideas }: { ideas: Idea[] }) {
                             {idea.content && <p className={styles.ideaContent}>{idea.content}</p>}
 
                             <div className={styles.voteSection}>
-                                <button
+                                <motion.button
                                     onClick={() => handleVote(idea.id)}
                                     className={styles.voteButton}
+                                    whileTap={{ scale: 1.3 }}
+                                    animate={animateId === idea.id ? { rotate: [0, -10, 10, -5, 5, 0], scale: [1, 1.4, 1] } : {}}
+                                    transition={{ duration: 0.5 }}
                                 >
-                                    👍
-                                </button>
+                                    <ThumbsUp size={24} />
+                                </motion.button>
                                 <span className={styles.voteCount}>{idea.votes}</span>
                             </div>
 
