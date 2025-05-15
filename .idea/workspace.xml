@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="icono de votar mejorado e imagen de fondo hecho">
+    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="la UI del título, boton crear idea y ordenar hechos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SortSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortSelector.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ideasList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ideasList.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,8 @@
       <workItem from="1747082286550" duration="7694000" />
       <workItem from="1747099838407" duration="2100000" />
       <workItem from="1747138274401" duration="11909000" />
-      <workItem from="1747254619242" duration="9261000" />
+      <workItem from="1747254619242" duration="9580000" />
+      <workItem from="1747313827654" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <option name="closed" value="true" />
@@ -162,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747260478954</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="la UI del título, boton crear idea y ordenar hechos">
+      <option name="closed" value="true" />
+      <created>1747268099163</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747268099163</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +180,7 @@
     <MESSAGE value="bases de datos de ideas y el formulario de crear ideas hechos" />
     <MESSAGE value="ordenar ideas hecho, falta mejorar la UI" />
     <MESSAGE value="icono de votar mejorado e imagen de fondo hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="icono de votar mejorado e imagen de fondo hecho" />
+    <MESSAGE value="la UI del título, boton crear idea y ordenar hechos" />
+    <option name="LAST_COMMIT_MESSAGE" value="la UI del título, boton crear idea y ordenar hechos" />
   </component>
 </project>
