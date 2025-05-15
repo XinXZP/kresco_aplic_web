@@ -23,21 +23,26 @@ export default function SortSelector({ selected }: { selected: string }) {
     return (
         <div className={styles.header}>
             <div className={styles.headerTop}>
-                <h1 className={styles.title}>Lista de ideas</h1>
                 <Link href="/ideas/new" className={styles.createButton}>
                     Crear nueva idea
                 </Link>
             </div>
 
             <div className={styles.headerBottom}>
-                <label htmlFor="sort">Ordenar por:</label>
-                <select id="sort" value={selected} onChange={handleChange}>
-                    {options.map(opt => (
-                        <option key={opt.value} value={opt.value}>
-                            {opt.label}
-                        </option>
-                    ))}
-                </select>
+                <div className={styles.titleContainer}>
+                    <h1 className={styles.title}>Lista de ideas</h1>
+                </div>
+
+                <div className={styles.sortSection}>
+                    <label htmlFor="sort" className={styles.sortLabel}>Ordenar por:</label>
+                    <select id="sort" value={selected} onChange={handleChange} className={styles.sortSelect}>
+                        {options.map(opt => (
+                            <option key={opt.value} value={opt.value}>
+                                {opt.label}
+                            </option>
+                        ))}
+                    </select>
+                </div>
             </div>
         </div>
     );
