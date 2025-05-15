@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="Readme hecho">
+    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="Al abrir el url de localhost se dirige directamente a la pantalla de ideas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAZONAMIENTO.md" beforeDir="false" afterPath="$PROJECT_DIR$/RAZONAMIENTO.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +114,8 @@
       <workItem from="1747254619242" duration="9580000" />
       <workItem from="1747313827654" duration="722000" />
       <workItem from="1747320503348" duration="225000" />
+      <workItem from="1747320742282" duration="592000" />
+      <workItem from="1747339494076" duration="791000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <option name="closed" value="true" />
@@ -179,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747320530325</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Al abrir el url de localhost se dirige directamente a la pantalla de ideas">
+      <option name="closed" value="true" />
+      <created>1747320861996</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747320861996</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +202,7 @@
     <MESSAGE value="icono de votar mejorado e imagen de fondo hecho" />
     <MESSAGE value="la UI del título, boton crear idea y ordenar hechos" />
     <MESSAGE value="Readme hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme hecho" />
+    <MESSAGE value="Al abrir el url de localhost se dirige directamente a la pantalla de ideas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Al abrir el url de localhost se dirige directamente a la pantalla de ideas" />
   </component>
 </project>
