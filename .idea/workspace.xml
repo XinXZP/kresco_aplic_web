@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="Al abrir el url de localhost se dirige directamente a la pantalla de ideas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RAZONAMIENTO.md" beforeDir="false" afterPath="$PROJECT_DIR$/RAZONAMIENTO.md" afterDir="false" />
-    </list>
+    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="Al abrir el url de localhost se dirige directamente a la pantalla de ideas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +113,7 @@
       <workItem from="1747320503348" duration="225000" />
       <workItem from="1747320742282" duration="592000" />
       <workItem from="1747339494076" duration="791000" />
+      <workItem from="1747344320629" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <option name="closed" value="true" />
