@@ -1,6 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    // Puedes agregar tus opciones de configuración aquí
-};
-
-module.exports = nextConfig;
+module.exports = {
+    async redirects() {
+        return [
+            {
+                source: '/',
+                destination: '/ideas?orderBy=createdAt',
+                permanent: false,
+            },
+        ]
+    },
+}

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="la UI del título, boton crear idea y ordenar hechos">
+    <list default="true" id="971f975c-34f1-4801-9061-24f884eb3fff" name="Changes" comment="Readme hecho">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +113,7 @@
       <workItem from="1747138274401" duration="11909000" />
       <workItem from="1747254619242" duration="9580000" />
       <workItem from="1747313827654" duration="722000" />
+      <workItem from="1747320503348" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <option name="closed" value="true" />
@@ -169,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747268099163</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Readme hecho">
+      <option name="closed" value="true" />
+      <created>1747320530325</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747320530325</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +191,7 @@
     <MESSAGE value="ordenar ideas hecho, falta mejorar la UI" />
     <MESSAGE value="icono de votar mejorado e imagen de fondo hecho" />
     <MESSAGE value="la UI del título, boton crear idea y ordenar hechos" />
-    <option name="LAST_COMMIT_MESSAGE" value="la UI del título, boton crear idea y ordenar hechos" />
+    <MESSAGE value="Readme hecho" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme hecho" />
   </component>
 </project>

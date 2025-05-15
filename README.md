@@ -14,8 +14,6 @@ Paso uno: Correr el proyecto
     npm run dev
 - Abrir en un buscador el URL de http que se muestra después al ejecutar el anterior comando.
     Ejemplo: http://localhost:3000.
-- Añadir '/ideas' a final del URL para acceder al pantalla de la lista de ideas.
-    Ejemplo: http://localhost:3000/ideas.
 
 
 
